@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator dengan JavaScript Exception Handling</title>
+</head>
+<body>
+    <h1>Kalkulator Sederhana</h1>
+    <div>
+        <label for="num1">Angka Pertama:</label>
+        <input type="number" id="num1">
+    </div>
+    <div>
+        <label for="num2">Angka Kedua:</label>
+        <input type="number" id="num2">
+    </div>
+    <div>
+        <label for="operation">Operasi:</label>
+        <select id="operation">
+            <option value="add">Tambah</option>
+            <option value="subtract">Kurang</option>
+            <option value="multiply">Kali</option>
+            <option value="divide">Bagi</option>
+        </select>
+    </div>
+    <button onclick="calculate()">Hitung</button>
+    <h2 id="result">Hasil: </h2>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
